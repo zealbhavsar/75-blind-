@@ -31,3 +31,10 @@ function twoSum(nums, target) {
 // console.log(twoSumBrute([3, 2, 4], 6));       // [1,2]
 // console.log(twoSumBrute([3, 3], 6));          // [0,1]
 
+
+two subtract sum 
+let num1 = Number(prompt("Enter first number:"));
+let num2 = Number(prompt("Enter second number:"));
+
+console.log("Sum:", num1 + num2);
+console.log("Difference:", num1 - num2);
