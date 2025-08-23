@@ -38,3 +38,21 @@ let num2 = Number(prompt("Enter second number:"));
 
 console.log("Sum:", num1 + num2);
 console.log("Difference:", num1 - num2);
+
+continous number increment '
+    function continuousNumbers(n = 5) {
+  let out = "";
+  let num = 1;
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= i; j++) {
+      out += num + " ";
+      num++;
+    }
+    out += "\n";
+  }
+  console.log(out);
+}
+
+continuousNumbers(5);
+
+
